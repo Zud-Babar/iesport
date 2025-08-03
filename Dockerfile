@@ -2,4 +2,4 @@ FROM gristlabs/grist
 
 EXPOSE 8484
 
-CMD ["grist", "serve"]
+CMD ["/app/node_modules/.bin/grist", "serve"]
